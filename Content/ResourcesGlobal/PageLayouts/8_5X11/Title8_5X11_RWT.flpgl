@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="All" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundRepeat="no-repeat" BackgroundPositionX="10px" BackgroundPositionY="-100px" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+        <Frame Flow="body" Y="-13px" Bottom="10px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="672px" Height="867px">
+        </Frame>
+        <Frame X="0px" Y="856px" Width="672px" Height="41px" Flow="footer" Right="0px" Bottom="-33px" Anchors="Left,Right,Bottom" TextAlign="left" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="margin-left: 0; margin-right: auto;">
+                            <xhtml:col xhtml:style="width: 50%;" />
+                            <xhtml:col xhtml:style="width: 50%;" />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:class="border0px">
+                                        <xhtml:p>&#160;</xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="border0px">
+                                        <xhtml:p xhtml:class="HeaderFooterRight"><MadCap:variable xhtml:name="General.DocPartNumber" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="521px" Y="759px" Width="151px" Height="71px" Flow="decoration1" Right="0px" Bottom="34px" BackgroundImage="../../Images/IxiaLogos/RWT_Dark_150.png" BackgroundRepeat="stretch" />
+        <Frame X="0px" Y="-13px" Width="142px" Height="91px" Flow="decoration1" Right="530px" Bottom="786px" BackgroundImage="../../Images/IxiaLogos/IxiaKsLogo_Black_142.png" BackgroundRepeat="stretch" />
+    </Page>
+</PageStyles>

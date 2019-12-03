@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="General.PDF_only">
+  <TocEntry
+    Title="[%=General.AppName%][%=General.ProductMain%], [%=General.ProductSub%][%=General.DocType%]"
+    Link="/Content/Topics/QSG_topics/QSG_Pdf_intro.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    PageNumberReset="reset"
+    PageNumberFormat="decimal"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/ResourcesGlobal/PageLayouts/QSG/QSG_8dot5x11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+  <TocEntry
+    Title="Quick Start Intro"
+    Link="/Content/Topics/QSG_topics/QSG_intro.htm"
+    StartSection="false"
+    BreakType="none"
+    PageNumberReset="reset"
+    PageLayout="/Content/ResourcesGlobal/PageLayouts/QSG/QSG_8dot5x11.flpgl"
+    PageType="firstright"
+    PageNumberFormat="decimal"
+    PageNumber="1"
+    AutoEndOnLeftPage="disabled"></TocEntry>
+  <TocEntry
+    Title="Product safety information"
+    Link="/Content/Topics/QSG_topics/SafetyInfo_ref.htm"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    AutoEndOnLeftPage="disabled" />
+  <TocEntry
+    Title="Dummy topic"
+    Link="/Content/Topics/dummyTopic.htm"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Boilerplate/Notices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue" />
+</CatapultToc>

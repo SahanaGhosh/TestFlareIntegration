@@ -1,0 +1,41 @@
+/*<meta />*/
+
+/* AN: created 20-Dec-2017 - IxiaUDocsNotices.css - used only for the Notices page */
+/* 80% font size is approximately 10 point, 75% is approximately 9 point */
+
+body
+{
+	font-family: Calibri, Arial, 'Sans Serif';
+	font-size: 75%;
+	color: #000000;
+	/* mc-hyphenate: never; */
+}
+
+p
+{
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0.0em;
+	background-color: Transparent;
+}
+
+p.NoticesHead
+{
+	font-size: 210%;
+	margin-top: 0.0em;
+	font-style: normal;
+	width: 100%;
+	padding-bottom: 0.1em;
+	page-break-after: avoid;
+}
+
+p.head2
+{
+	font-size: 150%;
+	font-style: normal;
+	width: 100%;
+	padding-bottom: 0.1em;
+	padding-top: 0.4em;
+	page-break-after: avoid;
+	mc-next-tag: p;
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="HTML5 Output"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/QSG_tocHTML5.fltoc"
+  InsertMOTW="true"
+  EnableSitemap="false"
+  IncludeStopWords="true"
+  GenerateWebSafeImages="true"
+  WebSafeFileExtension="png"
+  Skin="/Project/Skins/HTML5_QSG_skin.flskn"
+  MasterPage="/Content/ResourcesGlobal/MasterPages/MPageWeb_QSG.flmsp"
+  ExcludeUnreferencedContent="true"
+  ConditionTagExpression="include[General.Online_only AND not ( General.NotesForReview or General.Obsolete or General.PDF_only or General.Pending or General.Writer_Comments )]">
+  <Destinations> </Destinations>
+</CatapultTarget>

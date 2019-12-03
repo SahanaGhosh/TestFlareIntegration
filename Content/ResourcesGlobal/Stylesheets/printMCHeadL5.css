@@ -1,0 +1,17 @@
+﻿/* import selected mc-heading-levels */
+@media print
+{
+	h4
+	{
+		letter-spacing: normal;
+		mc-heading-level: 4;
+		font-size: 120%;
+	}
+
+	h5
+	{
+		letter-spacing: normal;
+		mc-heading-level: 5;
+		font-size: 110%;
+	}
+}

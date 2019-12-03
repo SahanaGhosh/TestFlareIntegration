@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProjectImport AutoSync="false" DeleteStale="true" DeleteUnreferenced="true" IncludePattern="*.htm;*.html;*.flcts;*.png;*.jpg;*.jpeg;*.gif;*.flmsp;*.css;*.flsnp;*.flpgl;Company_Information.flvar" ExcludePattern="About_intro.htm;IxiaUDocsLegacyStyles.css;IxiaUDocsSafety.css">
+    <Files>
+        <Url Source="file://ixca-cm-fs3.lbj.is.keysight.com/docs/TechPubsIA/FlareParentGlobal/current/FlareParentGlobal.flprj" AbsoluteSource="file://ixca-cm-fs3.lbj.is.keysight.com/docs/TechPubsIA/FlareParentGlobal/current/FlareParentGlobal.flprj" />
+    </Files>
+    <ExcludedFiles />
+    <CollectedSourceFiles />
+    <SkippedSourceFiles />
+    <GeneratedFiles />
+</CatapultProjectImport>

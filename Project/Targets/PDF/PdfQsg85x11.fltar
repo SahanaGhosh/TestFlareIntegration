@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="User Guide 8.5 x 11"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/QSG_tocPDF.fltoc"
+  PatchHeadingLevels="false"
+  InjectEmptyPages="false"
+  MasterPageLayout="/Content/ResourcesGlobal/PageLayouts/QSG/QSG_8dot5x11.flpgl"
+  ConditionTagExpression="include[General.PDF_only AND not ( General.NotesForReview or General.Obsolete or General.Online_only or General.Pending or General.Writer_Comments )]">
+  <PrintedOutput
+    CollapseMargins="true"
+    ExpandingTextConversion="footnote"
+    PopupConversion="footnote"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false" />
+  <DocumentProperties
+    Title="Ixia User Guide"
+    Author="Ixia"
+    Subject="Ixia" />
+  <PDF
+    ShowUsedBookmarks="false"
+    InitialMagnification="75"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true"
+    CropAndRegistrationMarks="false"
+    ConvertToCMYK="true"
+    PageMode="UseNone" />
+</CatapultTarget>

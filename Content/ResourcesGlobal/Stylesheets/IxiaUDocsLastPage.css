@@ -1,0 +1,13 @@
+/*<meta />*/
+
+/* AN: created 04-Jan-2018 - IxiaUDocsLastPage.css - used only for the PDF last page */
+/* 80% font size is approximately 10 point, 75% is approximately 9 point */
+
+p.LastPageCopyright
+{
+	/* text-align: right; */
+	font-size: 75%;
+	margin-left: 66em; 
+	margin-top: 108em;
+	margin-bottom: 0.0em;
+}

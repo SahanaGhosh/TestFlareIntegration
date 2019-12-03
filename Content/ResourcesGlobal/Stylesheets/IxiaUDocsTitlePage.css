@@ -1,0 +1,272 @@
+/*<meta />*/
+
+/* AN: created 26-Feb-2016 from the IxiaUserDocs01.css file. Plan to use for Front and Back matter only */
+/* 80% font size is 10 point */
+
+/* DO WE NEED BODY AND P?
+body
+{
+	font-family: Verdana, Tahoma, Helvetica, Arial, 'Sans Serif';
+	font-size: 80%;
+	color: #000000;
+}
+p
+{
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0.0em;
+	background-color: Transparent;
+}
+*/
+
+p.IxiaLogo
+{
+	text-align: left;
+	margin-top: 4em;
+	background-color: Transparent;
+}
+
+p.welcome
+{
+	margin-top: 1em;
+	font-size: 24pt;
+}
+
+p.ProductMain
+{
+	color: #000000;
+	font-weight: normal;
+	font-size: 36pt;
+	margin-top: 1em;
+}
+
+p.ProductSub
+{
+	color: #000000;
+	font-weight: normal;
+	font-size: 24pt;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+p.ProductSub2
+{
+	color: #000000;
+	font-weight: normal;
+	font-size: 16pt;
+	margin-top: 0.5em;
+	margin-bottom: 1em;
+}
+
+p.DocType
+{
+	color: #000000;
+	font-weight: normal;
+	font-size: 18pt;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+p.DocType2
+{
+	color: #000000;
+	font-weight: normal;
+	font-size: 12pt;
+	margin-top: -0.5em;
+	margin-bottom: 1em;
+}
+
+p.ReleaseNum
+{
+	color: #000000;
+	font-weight: normal;
+	font-size: 16pt;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+p.copyright
+{
+	margin-top: 2em;
+	font-size: 8pt;
+}
+
+p.WriterComment
+{
+	color: red;
+	background-color: #f8f8f8;
+}
+
+/* Keep for refeerence -- stuff from Welcome.htm:
+
+	h1.logo {
+		text-align: right;
+	}
+	h1.colorBand {
+		text-align: right;
+		margin-top:2em;
+	}
+	h1.welcome {
+		font-size: 20pt;
+	}
+	h1.AppName {
+		font-size: 32pt;
+	}
+	h1.releaseNum {
+		font-size: 16pt;
+		margin-top:-1em;
+	}
+	h1.ohelp {
+		font-size: 24pt;
+		margin-top: 1em;
+	}
+	h1.subtitle1 {
+		font-size: 20pt;
+	}
+	h1.subtitle2 {
+		font-size: 18pt;
+		margin-top:-1em;
+	}
+	h1.relDate {
+		font-size: 16pt;
+		margin-top: 2em;
+		float:left;
+	}
+	h1.docStatus {
+		font-size: 16pt;
+		font-style:italic;
+	}
+	p.copyright {
+		font-size: 8pt;
+		text-align:right;
+	}
+ */
+/* For reference and possible future use -- stuff from HelpCenterIntro.htm
+
+			#header {
+				background-color:#28323B;
+				text-align:center;
+				padding:5px;
+			}
+			#welcome {
+				float:left;
+				padding-top:10px;
+				padding-bottom:10px;
+			}
+			#version {		
+				float:right;
+				font-size: 8pt;
+				color:#505050;
+				text-align: right;
+				padding-bottom:10px;
+				padding-right:10px;
+			}
+			#resources {		
+				clear:both;
+			}
+			#footer {		
+				clear:both;
+				font-size: 8pt;
+				text-align:right;
+			}
+			
+			h1.whitetext {
+				color: #ffffff;
+			}
+			p.blacktext {
+				color: #000000;
+				font-size: 14pt;
+			}		
+			p.copyrightLeft {
+				font-size: 8pt;
+				text-align:left;
+			}
+		 */
+
+/* print styles */
+
+@media print
+{
+	MadCap|pageFooter.EvenPage
+	{
+		font-size: 75%;
+		mc-hyphenate: never;
+		/* mc-toc-depth: 3; */
+	}
+
+	MadCap|pageFooter.OddPage
+	{
+		font-size: 75%;
+	}
+
+	MadCap|pageHeader.EvenPage
+	{
+		font-size: 75%;
+		mc-term-display: expanding-text;
+		/* mc-toc-depth: 3; */
+	}
+
+	MadCap|pageHeader.OddPage
+	{
+		font-size: 75%;
+		mc-feader-type: odd;
+	}
+
+	p.ProductMain
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 36pt;
+		font-family: Verdana, Tahoma, Georgia, "Times New Roman", Times, serif;
+		margin-top: 5em;
+		margin-bottom: 1em;
+	}
+
+	p.ProductSub
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 24pt;
+		font-family: Verdana, Tahoma, Georgia, "Times New Roman", Times, serif;
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+	p.ProductSub2
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 16pt;
+		font-family: Verdana, Tahoma, Georgia, "Times New Roman", Times, serif;
+		margin-top: 2em;
+		margin-bottom: 1em;
+	}
+
+	p.DocType
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 18pt;
+		font-family: Verdana, Tahoma, Georgia, "Times New Roman", Times, serif;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+	p.DocType2
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 12pt;
+		font-family: Verdana, Tahoma, Georgia, "Times New Roman", Times, serif;
+		margin-top: 0em;
+		margin-bottom: 1em;
+	}
+
+	p.ReleaseNum
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 18pt;
+		font-family: Verdana, Tahoma, Georgia, "Times New Roman", Times, serif;
+		margin-top: 8em;
+		margin-bottom: 1em;
+	}
+
+}
+

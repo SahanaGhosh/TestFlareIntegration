@@ -1,0 +1,57 @@
+/* styles used by Quick Start Guides */
+
+p.QSG_DocTypeFrameBreak
+{
+	color: #244C5A;
+	font-weight: bold;
+	letter-spacing: normal;
+	mc-heading-level: 0;
+	font-size: 128%;
+	margin-top: -0.5em;
+	margin-bottom: 2em;
+}
+
+@media print
+{
+	p.QSG_ProductMain
+	{
+		color: #244C5A;	
+		font-weight: bold;
+		letter-spacing: normal;
+		font-size: 200%;
+		width: 100%;
+		margin-top: 0em;
+		margin-bottom: 0em;
+	}
+
+	p.QSG_ProductSub
+	{
+		color: #244C5A;	
+		font-weight: bold;
+		letter-spacing: normal;
+		font-size: 160%;
+		margin-top: 0.0em;
+		margin-bottom: 0.5em;
+	}
+	
+	p.QSG_ProductSub2
+	{
+		color: #244C5A;	
+		font-weight: bold;
+		letter-spacing: normal;
+		font-size: 110%;
+		margin-top: 0.0em;
+		margin-bottom: 0.5em;
+	}
+	
+	p.QSG_DocTypeFrameBreak
+	{
+		color: #244C5A;	
+		font-weight: bold;
+		letter-spacing: normal;
+		/* mc-heading-level: 0; */
+		font-size: 120%;
+		margin-top: 0.0em;
+		frame-break-after:always
+	}
+}

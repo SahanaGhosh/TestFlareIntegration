@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="General.PDF_only">
+  <TocEntry
+    Title="PDF_Title"
+    Link="/Content/Boilerplate/PDF_Title.htm"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    PageNumberFormat="lower-roman"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/ResourcesGlobal/PageLayouts/8_5X11/Title8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled"
+    conditions="General.PDF_only" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Boilerplate/Notices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/ResourcesGlobal/PageLayouts/8_5X11/Notices8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    BreakType="chapter"
+    StartSection="false"
+    PageType="firstright"
+    PageLayout="/Content/ResourcesGlobal/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    PageNumberReset="continue"
+    AutoEndOnLeftPage="disabled"
+    conditions="General.PDF_only"></TocEntry>
+  <TocEntry
+    Title="Documentation conventions"
+    BreakType="pageLayout"
+    AutoEndOnLeftPage="disabled"
+    conditions="General.PDF_only"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false" />
+  <TocEntry
+    Title="PDF_TOC"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/ResourcesGlobal/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled"
+    conditions="General.PDF_only" />
+  <TocEntry
+    Title="body_toc"
+    Link="/Project/TOCs/body_toc.fltoc"
+    ReplaceMergeNode="true"
+    StartSection="false"
+    AutoEndOnLeftPage="disabled" />
+  <TocEntry
+    Title="PDF_Index"
+    BreakType="chapter"
+    PageType="firstright"
+    PageNumberReset="continue"
+    StartSection="false"
+    PageNumber="1"
+    PageLayout="/Content/ResourcesGlobal/PageLayouts/8_5X11/Index8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    AutoEndOnLeftPage="disabled"
+    conditions="General.PDF_only" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Boilerplate/LastPage.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/ResourcesGlobal/PageLayouts/8_5X11/LastPg8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    AutoEndOnLeftPage="disabled"
+    PageNumberReset="continue"
+    conditions="General.PDF_only" />
+</CatapultToc>

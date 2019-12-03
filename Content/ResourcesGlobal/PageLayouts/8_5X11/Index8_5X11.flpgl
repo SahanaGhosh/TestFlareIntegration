@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="First Right" Padding="20px" PageSize="Letter" PageType="firstright" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+        <Frame X="-366px" Y="391px" Width="723px" Height="80px" FlowIndex="8" Flow="body" Right="315px" Bottom="393px" Rotate="-90" Anchors="Left,Top,Bottom" />
+        <Frame Flow="body" Y="217px" Bottom="72px" X="85px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="587px" Height="575px" FlowIndex="9">
+        </Frame>
+        <Frame Flow="footer" Height="31px" Anchors="Left,Right,Bottom" Right="0px" Bottom="-63px" X="84px" Y="896px" Width="588px" TextAlign="right" VerticalAlign="top" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#a9a9a9">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 33%;" />
+                            <xhtml:col xhtml:style="width: 33%;" />
+                            <xhtml:col xhtml:style="width: 33%;" />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:class="border0px">
+                                        <xhtml:p>&#160;</xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="border0px">
+                                        <xhtml:p xhtml:class="HeaderFooterCenter">– <MadCap:variable xhtml:name="System.PageNumber" /> –</xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="border0px" xhtml:style="text-align: right;">
+                                        <xhtml:p xhtml:class="HeaderFooterRight"><MadCap:variable xhtml:name="General.DocPartNumber" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Left" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" Y="48px" Bottom="72px" X="0px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="672px" Height="744px">
+        </Frame>
+        <Frame Flow="header" Anchors="Left,Right,Top" Right="0in" Bottom="9.1875in" X="0in" Y="-0.5208333in" ColumnCount="1" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" Height="32px" VerticalAlign="bottom" TextAlign="left" BorderBottomStyle="none" BorderBottomWidth="0pt" Width="672px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="margin-right: 0px;margin-left: 0px;"><MadCap:variable xhtml:name="Heading.Level1" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="30px" Anchors="Left,Right,Bottom" Right="-1px" Bottom="-65px" X="-1px" Y="899px" Width="674px" TextAlign="left" VerticalAlign="top" ColumnCount="1" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#a9a9a9">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="font-size: 9pt;width: 33%;" />
+                            <xhtml:col xhtml:style="font-size: 9pt;width: 33%;" />
+                            <xhtml:col xhtml:style="font-size: 9pt;width: 33%;" />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:class="border0px">
+                                        <xhtml:p xhtml:class="HeaderFooterLeft"><MadCap:variable xhtml:name="General.DocPartNumber" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="border0px" xhtml:style="text-align: right;">
+                                        <xhtml:p xhtml:class="HeaderFooterCenter">– <MadCap:variable xhtml:name="System.PageNumber" /> –</xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="border0px">
+                                        <xhtml:p xhtml:class="HeaderFooterRight">&#160;</xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Empty Left" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="emptyleft" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame X="137px" Y="406px" Width="399px" Height="52px" Flow="decoration0" Right="136px" Bottom="406px" Anchors="Left,Right,Top,Bottom">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="EmptyPageText" xhtml:style="text-align: center;">This page intentionally left blank.</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="30px" Anchors="Left,Right,Bottom" Right="-1px" Bottom="-65px" X="-1px" Y="899px" Width="674px" TextAlign="left" VerticalAlign="top" ColumnCount="1" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#a9a9a9">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="font-size: 9pt;width: 33%;" />
+                            <xhtml:col xhtml:style="font-size: 9pt;width: 33%;" />
+                            <xhtml:col xhtml:style="font-size: 9pt;width: 33%;" />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:class="border0px">
+                                        <xhtml:p xhtml:class="HeaderFooterLeft"><MadCap:variable xhtml:name="General.DocPartNumber" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="border0px" xhtml:style="text-align: right;">
+                                        <xhtml:p xhtml:class="HeaderFooterCenter">– <MadCap:variable xhtml:name="System.PageNumber" /> –</xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="border0px">
+                                        <xhtml:p xhtml:class="HeaderFooterRight">&#160;</xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Right" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundType="Solid" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" Y="48px" Bottom="72px" X="0px" Right="0px" ColumnCount="2" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="672px" Height="744px">
+        </Frame>
+        <Frame Flow="header" Anchors="Left,Right,Top" Right="0in" Bottom="9.1875in" X="0in" Y="-0.5208333in" ColumnCount="1" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" Height="32px" VerticalAlign="bottom" TextAlign="right" BorderBottomStyle="none" BorderBottomWidth="0pt" Width="672px" BorderBottomColor="#ffffff">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="margin-right: 0px;margin-left: 0px;"><MadCap:variable xhtml:name="Heading.Level1" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="31px" Anchors="Left,Right,Bottom" Right="0px" Bottom="-65px" X="0px" Y="898px" Width="672px" TextAlign="right" VerticalAlign="top" BorderTopStyle="solid" BorderTopWidth="1px" BorderTopColor="#a9a9a9">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col xhtml:style="width: 33%;" />
+                            <xhtml:col xhtml:style="width: 33%;" />
+                            <xhtml:col xhtml:style="width: 33%;" />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:class="border0px">
+                                        <xhtml:p>&#160;</xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="border0px" xhtml:style="text-align: right;">
+                                        <xhtml:p xhtml:class="HeaderFooterCenter">– <MadCap:variable xhtml:name="System.PageNumber" /> –</xhtml:p>
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:class="border0px">
+                                        <xhtml:p xhtml:class="HeaderFooterRight"><MadCap:variable xhtml:name="General.DocPartNumber" />
+                                        </xhtml:p>
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

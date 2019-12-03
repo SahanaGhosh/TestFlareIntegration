@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="General.Online_only">
+  <TocEntry
+    Title="[%=General.AppName%], [%=General.ProductSub%], [%=General.Release_Label%] [%=General.AppRelease%]"
+    Link="/Content/Topics/QSG_topics/QSG_HtmlSingleTopic.htm" />
+</CatapultToc>

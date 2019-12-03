@@ -1,0 +1,1321 @@
+/* This file has the base stylesheet settings for FLiPv2 */
+:root
+{
+	--HeadingColor: #244C5A;
+	--TableBorderColor: #A9A9A9;
+	--CodeColor: #454545;
+}
+body
+{
+	font-family: Verdana, Tahoma, Helvetica, Arial, 'Sans Serif';
+	font-size: 80%;
+	color: #000000;
+	mc-hyphenate: never;
+}
+
+/* Always use h1 for topic titles, and h6 within a topic */
+
+h1
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.6em;
+	color: var(--HeadingColor);
+	font-weight: bold;
+	font-size: 150%;
+	font-style: normal;
+	width: 100%;
+	padding-bottom: 0.1em;
+	padding-top: 0.4em;
+	mc-next-tag: p;
+}
+
+h2
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.6em;
+	color: var(--HeadingColor);
+	font-weight: bold;
+	font-size: 150%;
+	font-style: normal;
+	width: 100%;
+	padding-bottom: 0.1em;
+	padding-top: 0.4em;
+	mc-next-tag: p;
+}
+
+h3
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.6em;
+	color: var(--HeadingColor);
+	font-weight: bold;
+	font-size: 150%;
+	font-style: normal;
+	width: 100%;
+	padding-bottom: 0.1em;
+	padding-top: 0.4em;
+	mc-next-tag: p;
+}
+
+h4
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.6em;
+	color: var(--HeadingColor);
+	font-weight: bold;
+	font-size: 150%;
+	font-style: normal;
+	width: 100%;
+	padding-bottom: 0.1em;
+	padding-top: 0.4em;
+	mc-next-tag: p;
+}
+
+h5
+{
+	margin-top: 0.4em;
+	margin-bottom: 0.6em;
+	color: var(--HeadingColor);
+	font-weight: bold;
+	font-size: 150%;
+	font-style: normal;
+	width: 100%;
+	padding-bottom: 0.1em;
+	padding-top: 0.4em;
+	mc-next-tag: p;
+}
+
+h6
+{
+	font-weight: bold;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	color: var(--HeadingColor);
+	font-size: 110%;
+	font-style: normal;
+	width: 100%;
+	padding-bottom: 0.1em;
+	padding-top: 0.4em;
+	mc-next-tag: p;
+}
+
+p
+{
+	text-align: left;
+	margin-top: 0.5em;
+	margin-bottom: 0.0em;
+	background-color: Transparent;
+	mc-hyphenate: never;
+}
+
+p.Centered
+{
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: 0.0em;
+	background-color: Transparent;
+}
+
+p.indent2em
+{
+	margin-left: 2em;
+}
+
+p.indent4em
+{
+	margin-left: 4em;
+}
+
+p.CodeBlock
+{
+	font-family: Consolas, Monico, 'Droid Sans Mono', 'Courier New';
+	font-size: 104%;
+	color: var(--CodeColor);
+	margin-left: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+}
+.CodeBlock + .CodeBlock 
+{ 
+	margin-top:0.0em;
+}
+.CodeBlock + p 
+{ 
+	margin-top:0.5em;
+}
+
+p.CodeBlockSmall
+{
+	font-family: 'Courier New';
+	margin-left: 2em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+	/* display: inline-block;
+	white-space: pre-wrap; */
+	font-size: xx-small;
+	mc-hidden: hidden;
+}
+
+p.Syntax
+{
+	font-family: Consolas, Monico, 'Droid Sans Mono', 'Courier New';
+	font-size: 104%;
+	color: var(--CodeColor);
+	text-indent: -4em;
+	margin-left: 6em;
+	margin-right: 6em;
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+}
+.Syntax + .Syntax 
+{ 
+	margin-top:0.0em;
+}
+.Syntax + p 
+{ 
+	margin-top:0.5em;
+}
+
+p.ApiCall
+{
+	font-family: Consolas, Monico, 'Droid Sans Mono', 'Courier New';
+	font-size: 112%;
+	font-weight: bold;
+	background-color: #f8f8ff;
+	color: #1e90ff;
+	padding-top: 0.4em;
+	padding-bottom: 0.4em;
+	margin-left: 0em;
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+}
+
+p.procedureIntro
+{
+	font-weight: bold;
+	font-style: normal;
+	margin-top: 0.8em;
+	color: #171717;
+	page-break-after: avoid;
+}
+
+/* use for Master Page footer: */
+p.font73percent
+{
+	font-size:88%;
+}
+
+p.Note,
+div.Note
+{
+	background-color: transparent;
+	/* background-image: url('../Images/edit_16.png'); */
+	/* background-image: url('../Images/NoteIcons/about_16.png'); */
+	background-image: url('../../ResourcesGlobal/Images/NoteImages/sinfo_16.png');
+	min-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 4px 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #9FA1A4;
+	border-bottom-width: 0.1em;
+	border-top-color: #9FA1A4;
+	border-top-style: solid;
+	border-top-width: 0.1em;
+	mc-auto-number-format: '{b}{color #244C5A}Note: {/color}{/b}';
+	display: block;
+	text-indent: 0em;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 1.5em;
+	padding-left: 2.5em;
+	padding-top: 0.20em;
+	padding-bottom: 0.20em;
+}
+
+p.NoteTip,
+div.NoteTip
+{
+	background-color: transparent;
+	background-image: url('../../ResourcesGlobal/Images/NoteImages/Cursor_Hand_tip.png');
+	min-height: 18px;
+	background-repeat: no-repeat;
+	background-position: 4px 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #9FA1A4;
+	border-bottom-width: 0.1em;
+	border-top-color: #9FA1A4;
+	border-top-style: solid;
+	border-top-width: 0.1em;
+	mc-auto-number-format: '{b}{color #244C5A}Tip: {/color}{/b}';
+	display: block;
+	text-indent: 0em;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 1.5em;
+	padding-left: 2.5em;
+	padding-top: 0.20em;
+	padding-bottom: 0.20em;
+}
+
+p.NoteImportant,
+div.NoteImportant
+{
+	background-color: Transparent;
+	background-image: url('../../ResourcesGlobal/Images/NoteImages/Exclamation24x24.png');
+	min-height: 16px;
+	background-repeat: no-repeat;
+	background-position: 2px 1px;
+	border-style: solid;
+	border-color: #d3d3d3;
+	border-width: 0.1em;
+	border-radius: 6px;
+	mc-auto-number-format: '{b}{color #244C5A}Important! {/color}{/b}';
+	display: block;
+	text-indent: 0em;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 1.5em;
+	padding-left: 2.5em;
+	padding-top: 0.20em;
+	padding-bottom: 0.60em;
+	page-break-inside: avoid;
+}
+
+p.WriterComment
+{
+	color: red;
+	background-color: #f8f8f8;
+	mc-conditions: 'General.Writer_Comments';
+}
+
+pre
+{
+	font-family: Consolas, Monico, 'Droid Sans Mono', 'Courier New', monospace;  
+	font-size: 100%;
+	color: var(--CodeColor);
+	padding-left: 0.5em;
+	mc-hyphenate: never;
+}
+
+li
+{
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	orphans: 2;
+	widows: 2;
+	mc-hyphenate: never;
+}
+
+li p
+{
+	margin-top: 0.5em;
+	margin-bottom: 0em;
+	margin-left: 0em;
+}
+
+li > p.CodeBlock
+{
+	margin-left: 1em;
+}
+
+ul
+{
+	list-style-type: disc;
+	margin-top: 0.0em;
+	margin-bottom: 0.5em;
+}
+
+ul ul
+{
+	list-style-type: square;
+}
+
+ul ul ul
+{
+	list-style-type: circle;
+}
+
+ol
+{
+	list-style-type: decimal;
+	margin-top: 0.0em;
+	margin-bottom: 0.5em;
+}
+
+ol ol
+{
+	list-style-type: lower-alpha;
+}
+
+ol ol ol
+{
+	list-style-type: lower-roman;
+}
+
+ul li,
+ol li
+{
+	margin-left: -0.5em;
+}
+
+ul ul li,
+ul ol li,
+ol ol li,
+ol ul li
+{
+	margin-left: -0.75em;
+}
+
+ul ul ul li,
+ul ul ol li,
+ul ol ul li,
+ol ol ol li,
+ol ol ul li,
+ol ul ol li
+{
+	margin-left: -1.0em;
+}
+
+ol.none
+{
+	list-style-type: none;
+}
+
+img
+{
+	border: none;
+}
+
+img.Thumbnail
+{
+	bottom: 3%;
+	top: 3%;
+	mc-thumbnail-max-height: 8em;
+	mc-image-position: none;
+	mc-thumbnail: hover;
+	clear: both;
+	mc-float: center;
+	position: inherit;
+}
+
+div.ImagesFloatLeft
+{
+	clear: both;
+	float: left;
+	margin-right: 10px;
+}
+
+div.ImagesFloatRight
+{
+	clear: both;
+	float: right;
+	margin-left: 10px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+.pageBreakBefore
+{
+	page-break-before: always;
+}
+
+.pageBreakAfterAvoid
+{
+	page-break-after: avoid;
+}
+
+a.expandspot
+{
+	cursor: hand;
+	color: #008000;
+	font-style: normal;
+}
+
+a.dropspot
+{
+	font-style: italic;
+	cursor: hand;
+	color: #008000;
+}
+
+a.glossterm
+{
+	cursor: hand;
+	color: #800000;
+	font-style: normal;
+}
+
+span.Bold
+{
+	font-weight: bold;
+	font-style: normal;
+}
+
+span.Code
+{
+	font-family: "Courier New", "Serif";
+	font-style: normal;
+}
+
+span.Italics
+{
+	font-style: italic;
+}
+
+span.Underline
+{
+	font-style: normal;
+	text-decoration: underline;
+}
+
+sub
+{
+	font-family: Verdana;
+	font-size: 79.83%;
+	font-style: italic;
+}
+
+sup
+{
+	font-size: 79.83%;
+	font-family: Verdana;
+	font-style: italic;
+}
+
+/* tables, start */
+
+table
+{
+	border-collapse: collapse;
+	table-layout: auto;
+	margin-top: 0.5em;
+}
+
+table.fixed_size
+{
+	width: 88%;
+	border-collapse: collapse;
+	table-layout: fixed;
+	margin-top: 0.5em;
+}
+
+table.no_rules
+{
+	border-color: transparent;
+	table-layout: auto;
+}
+table.no_rules th {
+	border: 0px solid; 
+	border-color: transparent;
+	background-color: #ffffff;
+}
+table.no_rules td {
+	border: 0px solid; 
+	border-color: transparent;
+}
+
+th
+{
+	font-weight: bold;
+	color: #191970;
+	background-color: #dcdcdc;
+	padding: 6px;
+	text-align: left;
+	vertical-align: bottom;
+	border: solid 1px;
+	border-color: var(--TableBorderColor);
+}
+/* Selects all <p> elements where the parent is a <th> element:  */
+th > p
+{
+	color: #191970;
+	margin-top: 0.0em;
+	margin-bottom: 0.0em;
+}
+
+tr td p
+{
+	margin-top: 0.0em;
+	margin-bottom: 0.5em;
+}
+
+tr td + p
+{
+	margin-top: 0.0em;
+	margin-bottom: 0.5em;
+	margin-left: 0em;
+}
+
+tr td p.CodeBlock
+{
+	font-family: Consolas, Monico, 'Droid Sans Mono', 'Courier New';
+	font-size: 100%;
+	color: #000000;
+	margin-left: 1em;
+	margin-top: 0em;
+	margin-bottom: 0em;
+}
+
+tr td ul,
+tr td ol
+{
+	margin-top: 0.0em;
+	margin-bottom: 0.5em;
+}
+
+td
+{
+	margin-top: 0.0em;
+	margin-bottom: 0.5em;
+	padding: 6px;
+	text-align: left;
+	vertical-align: top;
+	border: solid 1px;
+	border-color: var(--TableBorderColor);
+}
+
+th.border0px
+{
+	border: solid 0px;
+	border-color: #ffffff;
+	background-color: #ffffff;
+}
+
+th.border1px
+{
+	border: solid 1px;
+	border-color: var(--TableBorderColor);
+}
+
+th.border1px_Vtop
+{
+	border: solid 1px;
+	vertical-align: top;
+	border-color: var(--TableBorderColor);
+}
+
+th.border1px_centered
+{
+	border: solid 1px;
+	border-color: var(--TableBorderColor);
+	text-align: center;
+}
+
+th.border1px_TopBottomOnly
+{
+	border-left: solid 0px #ffffff;
+	border-right: solid 0px #ffffff;
+}
+
+th.border1px_LeftOnly
+{
+	border-top: solid 0px #ffffff;
+	border-bottom: solid 0px #ffffff;
+	border-left: solid 1px var(--TableBorderColor);
+	border-right: solid 0px #ffffff;
+}
+th.border1px_RightOnly
+{
+	border-top: solid 0px #ffffff;
+	border-bottom: solid 0px #ffffff;
+	border-left: solid 0px #ffffff;
+	border-right: solid 1px var(--TableBorderColor);
+}
+
+td.border0px
+{
+	border: solid 0px #ffffff;
+}
+
+/* use for Master Page footer: */
+td.border0px_LightGray
+{
+	border: solid 0px #ffffff;
+	background-color: #F7F7F8;
+}
+
+td.border1px
+{
+	border: solid 1px;
+	border-color: var(--TableBorderColor);
+}
+
+td.border1px_centered
+{
+	border: solid 1px;
+	border-color: var(--TableBorderColor);
+	text-align: center;
+}
+
+td.border1px_TopBottomOnly
+{
+	border-left: solid 0px #ffffff;
+	border-right: solid 0px #ffffff;
+}
+
+td.border1px_TopOnly
+{
+	border-top: solid 1px var(--TableBorderColor);
+	border-bottom: solid 0px #ffffff;
+	border-left: solid 0px #ffffff;
+	border-right: solid 0px #ffffff;
+}
+
+td.border1px_BottomOnly
+{
+	border-top: solid 0px #ffffff;
+	border-bottom: solid 1px var(--TableBorderColor);
+	border-left: solid 0px #ffffff;
+	border-right: solid 0px #ffffff;
+}
+
+td.border1px_LeftOnly
+{
+	border-top: solid 0px #ffffff;
+	border-bottom: solid 0px #ffffff;
+	border-left: solid 1px var(--TableBorderColor);
+	border-right: solid 0px #ffffff;
+}
+td.border1px_RightOnly
+{
+	border-top: solid 0px #ffffff;
+	border-bottom: solid 0px #ffffff;
+	border-left: solid 0px #ffffff;
+	border-right: solid 1px var(--TableBorderColor);
+}
+
+td.rowGroupHeader
+{
+	font-style: italic;
+	background-color: #F7F7F8;
+	border-color: var(--TableBorderColor);
+}
+
+/* tables, end */
+
+MadCap|relatedTopics:hover
+{
+	font-size: 110%;
+	font-family: Verdana;
+}
+
+MadCap|relatedTopics
+{
+	font-size: 110%;
+}
+
+MadCap|relatedTopicsControlList
+{
+	list-style-position: outside;
+	list-style-type: square;
+	left: 25%;
+	color: #0000ff;
+	font-family: Verdana;
+	font-size: 100%;
+	text-decoration: underline;
+}
+
+MadCap|relatedTopicsControlListItem
+{
+	color: #0000ff;
+	font-family: Verdana;
+	font-size: 100%;
+	text-decoration: underline;
+	list-style-position: outside;
+	list-style-type: square;
+	left: 25%;
+}
+
+MadCap|miniTocProxy
+{
+	border-top: none 0px white;
+	margin-top: 0.5em;
+	margin-left: 1em;
+	margin-right: 2em;
+	padding-top: 0.2pt;
+	padding-left: 1em;
+	padding-bottom: 0.2pt;
+	mc-toc-depth: 1;
+	background-color: #f5f5f5;
+}
+
+MadCap|indexProxy
+{
+	color: #0000ff;
+	font-family: Verdana;
+	font-size: 90%;
+}
+
+MadCap|xref
+{
+	font-size: 100%;
+	mc-format: '{paratext}';
+}
+
+MadCap|glossaryTerm.glossterm
+{
+	cursor: hand;
+	color: #800000;
+	font-style: normal;
+}
+
+MadCap|expandingBody.glossterm
+{
+	color: #0000ff;
+	font-weight: normal;
+	font-style: italic;
+}
+
+MadCap|breadcrumbsProxy
+{
+	margin-bottom: 9px;
+	mc-breadcrumbs-prefix: 'Path: ';
+	font-style: normal;
+	margin-top: 0px;
+	font-family: 'Century Gothic';
+	font-size: 100%;
+	background-color: #dcdcdc;
+	border-bottom-color: #ffffff;
+	border-bottom-width: 0px;
+	padding-bottom: 0px;
+}
+
+MadCap|dropDown
+{
+	padding-bottom: 0.0em;
+	padding-top: 0.50em;
+	margin-bottom: 0.25em;
+	mc-closed-image: url('../../ResourcesGlobal/Images/StyleImages/DropDownClosed.png');
+	mc-disabled: false;
+	mc-open-image: url('../../ResourcesGlobal/Images/StyleImages/DropDownOpen.png');
+}
+
+MadCap|dropDown.SecondLevel
+{
+	margin-left: 10px;
+	mc-closed-image: url('../../ResourcesGlobal/Images/StyleImages/DropDownClosedSecondLevel.png');
+	mc-open-image: url('../../ResourcesGlobal/Images/StyleImages/DropDownSmallOpen.png');
+}
+
+MadCap|dropDownBody
+{
+	border: dotted 1px #c0c0c0;
+}
+
+MadCap|dropDownBody.Final
+{
+	border-bottom: 0px;
+}
+
+MadCap|toggler
+{
+	padding-bottom: 0.50em;
+	padding-top: 0.50em;
+	margin-bottom: 0.25em;
+	mc-closed-image: url('../../ResourcesGlobal/Images/StyleImages/DropDownClosed.png');
+	mc-open-image: url('../../ResourcesGlobal/Images/StyleImages/DropDownOpen.png');
+}
+
+MadCap|expanding
+{
+	mc-closed-image: none;
+	mc-open-image: none;
+}
+
+MadCap|expandingHead
+{
+	font-style: normal;
+	font-weight: bold;
+	cursor: hand;
+	text-decoration: none;
+	color: #6989ED;
+}
+
+MadCap|expandingBody
+{
+	background-color: #D1D1E2;
+}
+
+address
+{
+	mc-hidden: hidden;
+}
+
+fieldset
+{
+	mc-hidden: hidden;
+}
+
+h1.BackmatterHeadings
+{
+	mc-hidden: hidden;
+}
+
+h1.TOC
+{
+	mc-hidden: hidden;
+}
+
+p.EmptyPageText
+{
+	mc-hidden: hidden;
+}
+
+p.HeaderFooterCenter
+{
+	mc-hidden: hidden;
+}
+
+p.HeaderFooterLeft
+{
+	mc-hidden: hidden;
+}
+
+p.HeaderFooterRight
+{
+	mc-hidden: hidden;
+}
+
+/* print styles */
+
+@media print
+{
+	/*  These are also in IxiaDocsTitlePage.css. Do we need them here?
+	MadCap|pageFooter.EvenPage
+	{
+		font-size: 75%;
+		mc-hyphenate: never;
+	}
+
+	MadCap|pageFooter.OddPage
+	{
+		font-size: 75%;
+	}
+
+	MadCap|pageHeader.EvenPage
+	{
+		font-size: 75%;
+		mc-term-display: expanding-text;
+	}
+
+	MadCap|pageHeader.OddPage
+	{
+		font-size: 75%;
+		mc-feader-type: odd;
+	}
+	*/
+
+	MadCap|tocProxy
+	{
+		border-top-style: none;
+		border-top-width: 0pt;
+	}
+
+	MadCap|miniTocProxy
+	{
+		border-top-width: 0px;
+		border-bottom-width: 0px;
+		margin-top: -3pt;
+		margin-left: 0.25in;
+		margin-right: 0.25in;
+		padding-left: 0px;
+		color: #17a5c3;
+		mc-toc-depth: 5;
+		background-color: transparent;
+	}
+
+	a.Popup
+	{
+		cursor: auto;
+		color: #000000;
+		text-decoration: none !important;
+		font-style: normal;
+	}
+
+	body
+	{
+		font-family: Verdana, Tahoma, Helvetica, Arial, 'Sans Serif';
+		/* formerly set to: Georgia, 'Times New Roman', Times, Serif */
+		/* letter-spacing: 0.25em; */
+		mc-hyphenate: never;
+	}
+
+	p
+	{
+		text-align: left;
+		margin-top: 1.2em;
+		margin-bottom: 1.2em;
+		color: black;
+		mc-hyphenate: never;
+	}
+
+	p.Centered
+	{
+		text-align: center;
+		margin-top: 1.2em;
+		margin-bottom: 1.2em;
+		color: black;
+	}
+	
+	p.CodeBlock
+	{
+		font-family: Consolas, Monico, 'Droid Sans Mono', 'Courier New';
+		font-size: 108%;
+		margin-left: 2em;
+		margin-top: 0.0em;
+		margin-bottom: 0em;
+		color:var(--CodeColor);
+	}
+	.CodeBlock + p 
+	{
+		margin-top:1.0em;
+		margin-bottom:1.2em;
+		padding-top:0.0em;
+	}
+	.CodeBlock + .CodeBlock 
+	{ 
+		margin-top: 0.0em;
+		margin-bottom:0.0em;
+	}
+	.Syntax + p 
+	{
+		margin-top:1.0em;
+		margin-bottom:1.2em;
+		padding-top:0.0em;
+	}
+
+	p.CodeBlockSmall
+	{
+		font-family: 'Courier New';
+		margin-left: 2em;
+		margin-bottom: 0em;
+		display: inline-block;
+		margin-top: 0em;
+		white-space: pre-wrap;
+		font-size: xx-small;
+		mc-hidden: hidden;
+	}
+
+	p.Note,
+	div.Note
+	{
+		background-color: Transparent;
+		background-image: url('../../ResourcesGlobal/Images/NoteImages/sinfo_16.png');
+		min-height: 24px;
+		background-repeat: no-repeat;
+		background-position: 4px 6px;
+		border-bottom-style: solid;
+		border-bottom-color: #9FA1A4;
+		border-bottom-width: 0.1em;
+		border-top-color: #9FA1A4;
+		border-top-style: solid;
+		border-top-width: 0.1em;
+		mc-auto-number-format: '{b}{color #244C5A}Note: {/color}{/b}';
+		display: block;
+		text-indent: 0em;
+		margin-top: 0.5em;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		padding-left: 3.50em;
+		padding-top: 0.20em;
+		padding-bottom: 0.50em;
+		page-break-inside: avoid;
+	}
+
+	p.NoteTip,
+	div.NoteTip
+	{
+		background-color: Transparent;
+		background-image: url('../../ResourcesGlobal/Images/NoteImages/Cursor_Hand_tip.png');
+		height: 36px;
+		background-repeat: no-repeat;
+		background-position: 0px 2px;
+		border-bottom-style: solid;
+		border-bottom-color: #9FA1A4;
+		border-bottom-width: 0.1em;
+		border-top-color: #9FA1A4;
+		border-top-style: solid;
+		border-top-width: 0.1em;
+		mc-auto-number-format: '{b}{color #244C5A}Tip: {/color}{/b}';
+		display: block;
+		text-indent: 0em;
+		margin-top: 0.5em;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		padding-left: 3.50em;
+		padding-top: 0.20em;
+		padding-bottom: 0.92em;
+		page-break-inside: avoid;
+	}
+
+	p.NoteImportant,
+	div.NoteImportant
+	{
+		background-color: Transparent;
+		background-image: url('../../ResourcesGlobal/Images/NoteImages/Exclamation24x24.png');
+		height: 28px;
+		background-repeat: no-repeat;
+		background-position: 4px 0px;
+		border-style: solid;
+		border-color: #d3d3d3;
+		border-width: 0.1em;
+		border-radius: 6px;
+		mc-auto-number-format: '{b}{color #244C5A}Important! {/color}{/b}';
+		display: block;
+		text-indent: 0em;
+		margin-top: 0.5em;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+		padding-left: 3.50em;
+		padding-top: 0.20em;
+		padding-bottom: 0.50em;
+		page-break-inside: avoid;
+	}
+
+	p.EmptyPageText
+	{
+		font-size: 90%;
+	}
+
+	p.HeaderFooterLeft
+	{
+		font-size: 80%;
+		text-align: left;
+	}
+
+	p.HeaderFooterRight
+	{
+		font-size: 80%;
+		text-align: right;
+	}
+
+	p.HeaderFooterCenter
+	{
+		font-size: 80%;
+		text-align: center;
+	}
+
+	/* What are these? Can delete?
+	p.FrameFooterText
+	{
+		
+	}
+
+	p.FrameFooterText2
+	{
+		
+	}
+	*/
+
+	/* Do we need the following?
+	pre
+	{
+		font-family: monospace, 'Courier New';
+		font-size: 100%;
+		mc-hyphenate: never;
+	}
+	*/
+
+	.autoNumStyle
+	{
+		font-size: 100%;
+		font-variant: small-caps;
+		color: #37B0C9;
+		font-style: italic;
+	}
+
+	h1,
+	h1.ChapterNum
+	{
+		letter-spacing: normal;
+		font-size: 200%;
+		page-break-before: always;
+		border-bottom-style: solid;
+		border-width: 1px;
+		border-color: #37B0C9;
+		mc-heading-level: 1;
+		mc-auto-number-format: 'CH:Chapter {chapnum}  ';
+		mc-auto-number-class: 'autoNumStyle';
+		mc-autonumber-position: outside-head;
+		mc-conditions: 'General.PDF_only';
+	}
+
+	h1.AppendixNum
+	{
+		letter-spacing: normal;
+		font-size: 200%;
+		page-break-before: always;
+		border-bottom-style: solid;
+		border-width: 1px;
+		border-color: #37B0C9;
+		mc-heading-level: 1;
+		mc-auto-number-format: 'CH:Appendix {chapnum}  ';
+		mc-auto-number-class: 'autoNumStyle';
+		mc-autonumber-position: outside-head;
+		mc-conditions: 'General.PDF_only';
+	}
+
+	h1.NoNumber
+	{
+		letter-spacing: normal;
+		font-size: 200%;
+		page-break-before: always;
+		mc-heading-level: 1;
+		mc-auto-number-format: '';
+	}
+
+	/* h1.TOC -- Note the mc-heading-level setting: */
+
+	h1.TOC
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 44pt;
+		border-bottom-style: none;
+		margin-top: 0em;
+		margin-bottom: 0em;
+		text-align: center;
+		mc-heading-level: 0;
+		mc-auto-number-format: '';
+		page-break-before: avoid;
+	}
+
+	h1.BackmatterHeadings
+	{
+		color: #000000;
+		font-weight: normal;
+		font-size: 44pt;
+		border-bottom-style: none;
+		margin-top: 0em;
+		margin-bottom: 0em;
+		text-align: center;
+		mc-auto-number-format: '';
+	}
+
+	h2
+	{
+		letter-spacing: normal;
+		mc-heading-level: 2;
+		font-size: 160%;
+	}
+
+	h3
+	{
+		letter-spacing: normal;
+		mc-heading-level: 3;
+		font-size: 140%;
+	}
+	/* h4 and h5 are imported from other css files */
+	h6
+	{
+		letter-spacing: normal;
+		mc-heading-level: 0;
+		font-size: 110%;
+		font-style: normal;
+	}
+
+	li
+	{
+		letter-spacing: normal;
+		letter-spacing: normal;
+		mc-hyphenate: never;
+	}
+
+	ol
+	{
+		letter-spacing: normal;
+	}
+
+	ul
+	{
+		letter-spacing: normal;
+	}
+	ul li,
+	ol li
+	{
+		margin-bottom: 0.8em;
+	}
+	
+	tr
+	{
+		page-break-inside: auto;
+	}
+	tr td p
+	{
+		margin-top: 0.0em;
+		margin-bottom: 0.8em;
+	}
+
+	table + h6 
+	{
+		margin-top:1em;
+	}
+	
+	span
+	{
+		display: inline;
+	}
+	/* image max-width is 100% except in tables where they are not resized: */
+	img
+	{
+		max-width: 100%;
+	}
+	
+	td img
+	{
+		max-width: auto;
+	}
+	
+	img.Thumbnail
+	{
+		mc-thumbnail-max-width: 8em;
+		mc-thumbnail: none;
+	}
+
+	div.ImagesFloatLeft,
+	div.ImagesFloatRight
+	{
+		padding: 5px;
+	}
+
+	MadCap|xref
+	{
+		mc-format: '{paratext} {pageref}';
+		color: #0000ff;
+		text-decoration: underline;
+		font-variant: normal;
+	}
+	
+	MadCap|xref.NoPageNum
+	{
+		mc-format: '{paratext}';
+		color: #0000ff;
+		text-decoration: underline;
+		font-variant: normal;
+	}
+
+	MadCap|dropDownBody
+	{
+		border: none;
+	}
+
+	MadCap|popupHead
+	{
+		color: #000000;
+	}
+		
+	MadCap|footnote
+	{
+		font-size: 70%;
+		mc-footnote-comment-format: '{n}.  ';
+	}
+
+	MadCap|footnoteBlock
+	{
+		font-size: 92%;
+		margin-left: 1em;
+	}
+}

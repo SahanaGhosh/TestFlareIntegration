@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet
+  conditions="">
+  <Variable
+    Name="AppName"
+    Comment="Application name (such as IxLoad)"
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="AppRelease"
+    Comment="Release number (such as 6.50)">0.0</Variable>
+  <Variable
+    Name="DocPartNumber"
+    Comment="Document Part Number (such as 913-1234 Rev. A)" />
+  <Variable
+    Name="Release_Month"
+    Comment="The month (complete name) of the product release."
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="DocStatus"
+    Comment="Use null value for final release"
+    EvaluatedDefinition=""></Variable>
+  <Variable
+    Name="ProductSub"
+    Comment="Optional product subcomponent"
+    EvaluatedDefinition="" />
+  <Variable
+    Name="DocType"
+    Comment="Document category: User Guide, Reference Guide, etc."
+    EvaluatedDefinition="" />
+  <Variable
+    Name="ProductMain"
+    Comment="Name of the product or subject"
+    EvaluatedDefinition="" />
+  <Variable
+    Name="YearSystem"
+    Comment="System-derived year"
+    Type="DateTime"
+    LastUpdated="2016-10-17T13:58:11.7407646-07:00"
+    EvaluatedDefinition="yyyy">yyyy</Variable>
+  <Variable
+    Name="ProductSub2"
+    Comment="Another optional second-level product subcomponent"
+    EvaluatedDefinition="" />
+  <Variable
+    Name="DocType2"
+    Comment="Optional sub-category for the Doc Type"
+    EvaluatedDefinition="" />
+  <Variable
+    Name="Release_Label"
+    Comment="Release label for Title/Welcome pages"
+    EvaluatedDefinition="Release">Release</Variable>
+  <Variable
+    Name="YearFirstCopyright"
+    Comment="First copyright (publish) year for a document"
+    EvaluatedDefinition="" />
+  <Variable
+    Name="YearFirstCopyright"
+    Comment=""
+    EvaluatedDefinition="2017">2017</Variable>
+</CatapultVariableSet>

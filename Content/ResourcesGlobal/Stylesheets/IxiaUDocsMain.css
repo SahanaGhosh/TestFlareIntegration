@@ -1,0 +1,14 @@
+/*<meta />*/
+
+/* AN: created 29-Feb-2016 from FLMP stylesheet (IxiaUserDocs01.css) */
+
+/* Per 2015 Brand guidelines, #37B0C9 is the Ixia primary color, Red is #E31837, Navy is #244C5A, 
+True Black is #000000, Soft Black is #171717, Cool Gray is # 5f6369, Gray is #9fa1a4 
+*/
+
+/* 80% font size is 10 point */
+/* Removed .KeysightRed(#e90029) which is now in IxiaUDocsNotices.css. Sept2018 */
+
+@import url('IxiaUDocsDanger.css');
+@import url('IxiaUDocsMain_base.css');
+@import url('printMCHeadL3.css');

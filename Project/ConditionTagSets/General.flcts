@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags"
+  conditions="">
+  <ConditionTag
+    Comment="Information that will appear in print/PDF but not online"
+    Name="PDF_only"
+    BackgroundColor="#ff8500" />
+  <ConditionTag
+    BackgroundColor="#178f52"
+    Name="Online_only"
+    Comment="Information that will appear online but not in PDF"
+    Color="Normal"
+    OriginalName="Online" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="NotesForReview"
+    Comment="Embedded notes for reviewers. MUST hide for final publishing." />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Writer_Comments"
+    Comment="Internal notes for writers; MUST hide for all publishing"
+    OriginalName="Writer_Comments" />
+  <ConditionTag
+    BackgroundColor="#030000"
+    Name="Obsolete"
+    Comment="Hide information that should no longer be published." />
+  <ConditionTag
+    BackgroundColor="#806200"
+    Name="Pending"
+    Comment="Information that is incomplete, for future editions, or pending a publishing decision." />
+</CatapultConditionTagSet>

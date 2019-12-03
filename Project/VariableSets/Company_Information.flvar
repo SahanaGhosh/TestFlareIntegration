@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName">Ixia</Variable>
+  <Variable
+    Comment="Ixia headquarters"
+    Name="PhoneNumber">+1-818-871-1800</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    Definition="Some text"
+    OriginalName="StreetAddress">26601 West Agoura Road</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    Definition="Some text">Calabasas, California 91302</Variable>
+</CatapultVariableSet>

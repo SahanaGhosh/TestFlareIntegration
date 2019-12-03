@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="0.75in" PaddingRight="0.75in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" Height="9in" Width="7in" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+        <Frame Flow="header" Anchors="Left,Right,Top" Right="0in" Bottom="9.229167in" X="0in" Y="-0.5208333in" ColumnCount="1" PaddingLeft="0in" PaddingRight="0in" PaddingTop="0in" PaddingBottom="0in" Height="0.2916667in" VerticalAlign="bottom" TextAlign="left" BorderBottomStyle="solid" BorderBottomWidth="0pt" BorderBottomColor="#a9a9a9" Width="672px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="HeaderFooterLeft">&#160;</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="498px" Y="826px" Width="199px" Height="61px" Flow="footer" Right="-25px" Bottom="-23px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="HeaderFooterLeft">Ixia, a Keysight Business<xhtml:br /><MadCap:variable xhtml:name="Company_Information.StreetAddress" /><xhtml:br /><MadCap:variable xhtml:name="Company_Information.CityStateZip" /></xhtml:p>
+                        <xhtml:p xhtml:class="HeaderFooterLeft"><xhtml:a xhtml:href="http://www.ixiacom.com/">www.ixiacom.com</xhtml:a>
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="0px" Y="0px" Width="696px" Height="819px" Flow="body" Right="-24px" Bottom="45px" />
+        <Frame X="0px" Y="826px" Width="94px" Height="61px" Flow="decoration0" Right="578px" Bottom="-23px" BackgroundImage="../../Images/IxiaLogos/IxiaKsLogo_Black_94.png" BackgroundRepeat="stretch" />
+    </Page>
+</PageStyles>

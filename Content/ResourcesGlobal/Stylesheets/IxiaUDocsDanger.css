@@ -1,0 +1,54 @@
+/*<meta />*/
+
+div.DANGER
+{
+	background-color: Transparent;
+	background-image: url('../../ResourcesGlobal/Images/SafetyImages/warning-303768_640RedBkground51x45.png');
+	min-height: 52px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	border-style: solid;
+	border-color: #ff0000;
+	border-width: 0.2em;
+	border-radius: 6px;
+	mc-auto-number-format: '{b}{size 14pt}{color #000000}DANGER:  {/color}{/size}{/b}';
+	display: block;
+	text-indent: 0em;
+	margin-top: 0.5em;
+	margin-left: 0.5em;
+	margin-right: 1.5em;
+	padding-top: 0.2em;
+	padding-left: 5.0em;
+	padding-right: 1.0em;
+	padding-bottom: 1.0em;
+	box-shadow: 0 1px 5px #333;
+	page-break-inside: avoid;
+}
+
+@media print
+{
+	div.DANGER
+	{
+		background-color: Transparent;
+		background-image: url('../../ResourcesGlobal/Images/SafetyImages/warning-303768_640RedBkground51x45.png');
+		height: 52px;
+		background-repeat: no-repeat;
+		background-position: 0px 0px;
+		border-style: solid;
+		border-color: #ff0000;
+		border-width: 0.2em;
+		border-radius: 6px;
+		mc-auto-number-format: '{b}{size 14pt}{color #000000}DANGER:  {/color}{/size}{/b}';
+		display: block;
+		text-indent: 0em;
+		margin-top: 0.5em;
+		margin-left: 0.5em;
+		margin-right: 1.5em;
+		padding-top: 0.2em;
+		padding-left: 6.0em;
+		padding-right: 1.0em;
+		padding-bottom: 1.0em;
+		box-shadow: 0 1px 5px #333;
+		page-break-inside: avoid;
+	}
+}

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  conditions="">
+  <TocEntry
+    Title="Dummy topic"
+    Link="/Content/Topics/dummyTopic.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    ChapterNumber="1"
+    ChapterNumberReset="reset"
+    ChapterNumberFormat="decimal"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/ResourcesGlobal/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    AutoEndOnLeftPage="disabled" />
+</CatapultToc>

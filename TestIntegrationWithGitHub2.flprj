@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultProject Version="1" MasterToc="/Project/TOCs/HTML_toc.fltoc" SourceControlBound="true" MasterStylesheet="/Content/ResourcesGlobal/Stylesheets/IxiaUDocsMain.css" xml:lang="en-us" Comment="Standard FLiPv2 project template" IncludePattern="SmIxL_Logo2013.flskn;WebApps_HTML5.flskn" AutoExcludeNonTaggedFiles="false" IncludeLinkedFiles="false" DeleteStale="false" AutoSync="false" LastImport="2014-03-21T16:42:23.2858321-07:00" MasterStylesheetOverride="True" SourceControlProviderType="Git" ProjectGuid="d957850d-d18b-4e40-bfbe-ece8859c7c47">
+    <Files>
+        <Url Source="file:///C:/Ixia/aim/2014_RT1/AIM_RT1_2014.flprj" AbsoluteSource="file:///C:/Ixia/aim/2014_RT1/AIM_RT1_2014.flprj" />
+    </Files>
+    <ExcludedFiles />
+    <CollectedSourceFiles>
+        <Url Source="../../../../aim/2014_RT1/Project/Advanced/English (United States) Dictionary.mcdic" AbsoluteSource="../../../../aim/2014_RT1/Project/Advanced/English (United States) Dictionary.mcdic" />
+        <Url Source="../../aim/2014_RT1/Project/Skins/SmIxL_Logo2013.flskn" AbsoluteSource="file:///C:/Ixia/aim/2014_RT1/Project/Skins/SmIxL_Logo2013.flskn" />
+        <Url Source="../../aim/2014_RT1/Project/Skins/WebApps_HTML5.flskn" AbsoluteSource="file:///C:/Ixia/aim/2014_RT1/Project/Skins/WebApps_HTML5.flskn" />
+    </CollectedSourceFiles>
+    <SkippedSourceFiles />
+    <GeneratedFiles>
+        <Url Source="../Advanced/English (United States) Dictionary.mcdic" TimeStamp="2/27/2014 8:41:10 AM" />
+        <Url Source="Project/Skins/SmIxL_Logo2013.flskn" TimeStamp="12/20/2013 10:32:02 AM" />
+        <Url Source="Project/Skins/WebApps_HTML5.flskn" TimeStamp="12/20/2013 10:32:17 AM" />
+    </GeneratedFiles>
+</CatapultProject>
